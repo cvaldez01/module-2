@@ -6,7 +6,7 @@ html,body{
     margin: 0;
     padding: 0;
 }
-.item-1,.item-2,.item-3{
+.item-1,.item-2,.item-3,.item-4{
     background-color:gray;
     box-sizing: border-box;
      margin:0px 5px 3px 5px;
@@ -69,6 +69,20 @@ html,body{
         right:-0.1px;
     
     }
+    .item-4{
+        visibility: hidden;
+        display:none;
+    }
+    .title-4{
+        
+        border: 1px solid black;
+        background-color:#FBE7C6;
+        text-align: center;
+        width:150px;
+        position: absolute;
+        right:-0.1px;
+    
+    }
     
     #menu{
       
@@ -94,19 +108,71 @@ html,body{
       
         background-color:white;
         display: flex;
+        justify-content: space-between;
+        
         
     }
-
+    #header{
+        text-align: center;
+        margin-bottom: 20px;
+    }
     
-    
-    #menu{
-      
-        background-color:white;
-        display: flex;
+    .title-1{
+        border: 1px solid black;
+        background-color:pink;
+        text-align:center;
+        width:150px;
+        position: relative;
+        float:right;
+        flex-grow: 1;
+       
+     
+       
         
+    }
+    .title-2{
+        border: 1px solid black;
+        background-color:red;
+        color:white;
+        text-align:center;  
+        width:150px;
+        position: relative;
+        float:right;
+      
+     
+    }
+    .item-3{
+        visibility: hidden;
+        display: none;
+    }
+    .title-3{
+        border: 1px solid black;
+        background-color:#FBE7C6;
+        text-align: center;
+        width:150px;
+        position: relative;
+        float:right;
+        
+        
+    
+    }
+    .item-4 p.contenido{
+        margin-top:20px;
+        clear: both;
+    }
+    .title-4{
+        border: 1px solid black;
+        background-color:#FBE7C6;
+        text-align: center;
+        width:150px;
+        position: relative;
+        float:right;
+       
     }
   
 
+  
+   
 
 }
 
